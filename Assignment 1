@@ -1,6 +1,16 @@
-n=int(input ("enter number:") 
+n=int(input("enter number:")) 
 count=0
 while n>0:
     n=n//10
     count=count+1
 print("no of digits in given number is:",count)
+
+
+Output:
+enter number:864
+no of digits in given number is: 3
+
+
+enter number:96437
+no of digits in given number is: 5
+> 
